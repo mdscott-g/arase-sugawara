@@ -1,11 +1,100 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blank Page</title>
-    </head>
-    <body>
-        Test!
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Loving Memory of Shinichi Arase Sugawara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb; /* A very light grey */
+        }
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl p-4 sm:p-6 md:p-8">
+        <main class="bg-white rounded-lg shadow-xl overflow-hidden">
+            
+            <!-- Simplified Header -->
+            <div class="text-center pt-10 md:pt-12">
+                <h1 class="font-lora text-3xl md:text-4xl text-gray-600 tracking-wider">In Loving Memory</h1>
+            </div>
+
+            <!-- Image -->
+            <div class="px-10 pt-8">
+                <img src="M85_1061_Sugawara_BW.jpg" alt="Shinichi Arase Sugawara" class="w-full max-w-md mx-auto h-auto rounded-lg shadow-md object-cover object-center" onerror="this.onerror=null;this.src='https://placehold.co/600x800/e2e8f0/4a5568?text=In+Memory';">
+            </div>
+
+            <!-- Name and Dates -->
+            <div class="text-center p-6 md:p-8">
+                <h2 class="font-lora text-4xl md:text-5xl font-semibold text-gray-800">Shinichi Arase Sugawara</h2>
+                <p class="mt-3 text-lg md:text-xl text-gray-500">March 9, 1951 - August 21, 2025</p>
+            </div>
+
+            <!-- Main Content -->
+            <div class="p-6 md:p-10 pt-0">
+                <!-- Service Information -->
+                <section class="bg-gray-100 rounded-lg p-6 md:p-8 mt-6">
+                    <h2 class="font-lora text-3xl text-gray-700 border-b pb-3 mb-6">Wake</h2>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <!-- Details -->
+                        <div>                            
+                            <p class="text-lg text-gray-600 mt-1">Family and friends are invited to celebrate Sugawara's life.</p>
+                            
+                            <div class="mt-6 space-y-4">
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-gray-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                    <div>
+                                        <p class="font-semibold">Date:</p>
+                                        <p>Friday, August 30, 2025</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-gray-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                    <div>
+                                        <p class="font-semibold">Time:</p>
+                                        <p>11:00 AM - 2:00 PM</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-gray-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    <div>
+                                        <p class="font-semibold">Location:</p>
+                                        <p>Bliss Gardens, Shah Alam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Map -->
+                        <div class="mt-6 md:mt-0">
+                             <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.048597371212!2d101.5385623768297!3d3.084894953381677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4d1f251c11bf%3A0x895c1bcf35e2373d!2sBliss%20Gardens!5e0!3m2!1sen!2smy!4v1724405051833!5m2!1sen!2smy" 
+                                width="100%" 
+                                height="300" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="rounded-lg shadow-md">
+                            </iframe>
+                            <a href="https://maps.app.goo.gl/QpreZjdTz9dMmSwU6" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-center w-full bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors duration-300">
+                                Open in Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
